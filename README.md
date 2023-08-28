@@ -35,17 +35,16 @@ To run this application, you'll need the following:
    git clone https://github.com/your-username/image-super-resolution-app.git
    cd image-super-resolution-app
    pip install torch torchvision pillow
-   '''
+   ```
 ### Usage
 
 1. Run the application:
-
-'''bash
-python app.py
-'''
-2. Click on the "Upload Image" button to select an image file from your local machine.
-3. The uploaded image will be transformed to 64x64 pixels and then processed using the super-resolution model.
-4. The original 64x64 image and the 256x256 high-resolution output image will be displayed on the application window.
+  ```bash
+  python app.py
+  ```
+3. Click on the "Upload Image" button to select an image file from your local machine.
+4. The uploaded image will be transformed to 64x64 pixels and then processed using the super-resolution model.
+5. The original 64x64 image and the 256x256 high-resolution output image will be displayed on the application window.
 
 ### Customization
 
