@@ -36,7 +36,7 @@ To run this application, you'll need the following:
    cd image-super-resolution-app
    pip install torch torchvision pillow
    ```
-### Usage
+## Usage
 
 1. Run the application:
   ```bash
@@ -46,8 +46,17 @@ To run this application, you'll need the following:
 4. The uploaded image will be transformed to 64x64 pixels and then processed using the super-resolution model.
 5. The original 64x64 image and the 256x256 high-resolution output image will be displayed on the application window.
 
-### Customization
+## Customization
 
 - To use your own super-resolution PyTorch model, replace 'model.pth' with the actual path to your model checkpoint in the app.py file.
 - You can customize the architecture of the super-resolution model by editing the SuperResolutionModel class in the app.py file.
 - Feel free to modify the user interface and enhance the application's features according to your requirements.
+
+## License
+
+License
+This project is open-source and Feel free to contribute to this project by submitting issues or pull requests if you have suggestions for improvements or bug fixes.
+
+```
+Don't Forget to Star the Repo
+```
